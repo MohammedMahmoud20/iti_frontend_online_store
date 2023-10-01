@@ -1,0 +1,46 @@
+body {
+    background-image: url("Images/1.jpg");
+    background-attachment:fixed;
+}
+li {
+    padding: 10px;
+    margin: 5px;
+    list-style: none;
+    display: inline-block;
+    font: bold 15px sans-serif;
+}
+*{
+    padding:0;
+    margin:0;
+}
+
+li:hover{
+    color:blue;
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+li:active {
+    color: darkmagenta;
+}
+#left{
+    float: left;
+}
+.product{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    margin-top: 150px;
+    background-color:darkmagenta;
+    text-align: center;
+}
+.info{
+    margin-bottom: 300px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    width: 170px;
+    height: 170px;
+    position: relative;
+    top: 20px;
+}

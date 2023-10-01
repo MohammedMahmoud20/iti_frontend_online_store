@@ -1,0 +1,42 @@
+body {
+    background-image: url("Images/1.jpg");
+    background-attachment:fixed;
+}
+table.table{
+    text-align:center;
+    padding:10px ;
+    background-color: rgb(232, 230, 230);
+    margin:10px auto;
+    height:550px;
+    width:280px;
+    border-radius:10%;
+}
+input{
+    display:inline-block;
+    width:80%;
+    padding:10px;
+    border:0;
+    outline:0;
+    background-color: rgb(232, 230, 230);
+    border-bottom:2px solid black;
+}
+input[type="text"]{
+    background-repeat:no-repeat;
+    padding-left:25px;
+}
+    input[type="email"] {
+        background-repeat: no-repeat;
+        padding-left: 25px;
+    }
+    input:active, input:focus {
+        border-bottom: 2px solid blue;
+    }
+    img:hover{
+        border:2px solid lightgreen;
+        cursor:pointer;
+
+    }
+    .signup{
+        text-align:center;
+        background-color:darkorchid;
+    }
